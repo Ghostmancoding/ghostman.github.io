@@ -1,0 +1,140 @@
+/* Sayfa genel arka planı */
+body {
+    background-image: url('images/Background3.jpg'); /* Resmi buraya ekleyin */
+    background-size: cover; /* Resmin tüm sayfayı kaplamasını sağlar */
+    background-position: center; /* Resmi sayfanın ortasına yerleştirir */
+    background-attachment: fixed; /* Arka planın sayfa kaydırıldığında sabit kalmasını sağlar */
+    margin: 0;
+    padding: 0;
+}
+  /* Unique sınıf adı ve font özellikleri */
+    .sour-gummy-unique-class  {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Orta kalınlık */
+    font-style: normal;
+    font-variation-settings: "wdth" 100; /* Genişlik ayarı */
+    -webkit-text-stroke: 1px black; /* WebKit tarayıcıları için */
+    color: white;
+    font-size: 2em;
+    }
+
+/* Unique sınıf adı ve font özellikleri */
+  .sour-gummy-unique-classmenü  {
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Orta kalınlık */
+  font-style: normal;
+  font-variation-settings: "wdth" 100; /* Genişlik ayarı */
+  -webkit-text-stroke: 1px black; /* WebKit tarayıcıları için */
+  color: white;
+  }
+
+/* Unique sınıf adı ve font özellikleri */
+  .sour-gummy-unique-classmakale  {
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Orta kalınlık */
+  font-style: normal;
+    font-variation-settings: "wdth" 200; /* Genişlik ayarı */
+      -webkit-text-stroke: 1px black; /* WebKit tarayıcıları için */
+  color: white;
+  font-size: 2em;
+  
+  }
+
+  .monofett-regular {
+    font-family: "Monofett", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* Header, içerik ve footer için ek stil */
+header {
+    background: none; /* Arka planı saydam yapmak için */
+    color: rgb(214, 211, 25);
+    padding: 40px 20px;
+}
+
+
+/* "Hakkımda" kısmı */
+section#about {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.footer2 {
+    background-color: none;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed; /* Sabit yaparak her zaman alt kısımda olmasını sağlarız */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0; /* Boşlukları kaldırır */
+}
+
+/* Footer stili */
+.footer {
+    position: fixed;
+    bottom: -200px; /* Başlangıçta footer ekranın dışında */
+    left: 0;
+    width: 100%;
+    background-color: none;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    transition: bottom 0.3s ease-in-out; /* Geçiş animasyonu */
+}
+
+/* Sayfa kaydırıldığında footer'ı göster */
+body.show-footer .footer {
+    bottom: 0; /* Sayfa en altına kaydırıldığında footer görünür */
+}
+
+body {
+    padding-bottom: 40px; /* Footer'ın üzerine yazının gelmesini engeller */
+}
+
+footer a {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+footer a:hover img {
+    transform: scale(1.2);  /* Üzerine gelindiğinde simge büyür */
+    transition: transform 0.3s ease;  /* Yavaşça büyür */
+}
+
+footer img {
+    width: 30px;   /* YouTube logosunun küçük boyutu */
+    height: 30px;  /* YouTube logosunun küçük boyutu */
+}
+
+/* YouTube kanal simgesi ve bağlantı stili */
+.youtube-link {
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.2em;
+    color: #ff0000; /* YouTube'un kırmızı rengi */
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.youtube-link:hover {
+    background-color: #ff0000;
+    color: white;
+}
+
+.youtube-link i {
+    margin-right: 10px;
+    font-size: 1.5em;
+}
